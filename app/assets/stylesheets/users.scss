@@ -1,3 +1,142 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 40px;
+}
+
+form {
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+
+h1 {
+  margin: 10px auto;
+  // background-color: burlywood;
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form-div {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.show-div {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  background-color: #ccc;
+  padding: 20px 30px;
+  border-radius: 6px;
+  font-size: large;
+}
+
+.show-div p {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #eee;
+}
+
+.show-div h1 {
+  color: rgb(28, 89, 160);
+}
+.form-div p {
+  font-size: large;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  font-size: large;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  border-radius: 6px;
+  background-color: #ddd;
+  color: black;
+}
+
+li a:hover {
+  color: rgb(28, 89, 160);
+  background-color: #bbb;
+}
+
+.field_with_errors { 
+  display: inline;
+}
+
+.new_user_button {
+  display: inline-block;
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 30px;
+}
+
+.new_user_button:hover {
+  background-color: #bbb;
+  color: rgb(28, 89, 160);
+}
+
+label {
+  color: brown;
+  font-size: large;
+  display: inline-block;
+  width: 120px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  outline: none;
+  color: black;
+  font-size: large;
+  width: 300px;
+  padding: 6px;
+  border-radius: 6px;
+  border: none ;
+}
+
+input[type="submit"] {
+  font-size: large;
+  padding: 10px 20px;
+  color: black;
+  background-color: #ccc;
+  border-radius: 6px;
+  border: none;
+  margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+  color: rgb(28, 89, 160);
+  background-color: #bbb;
+}
+
+.index-div {
+  width: 98%;
+  max-width: 1600px;
+}
+
+.red {
+  color: orangered;
+  background-color: white;
+  padding: 4px 10px;
+}

@@ -1,7 +1,10 @@
-<h1>User details</h1>
-<div> 
- <p><%= @user.username %></p>
- <p><%= @user.email %></p>
- <p><%= @user.password %></p>
- <%= link_to 'Edit', edit_user_path(@user) %>
+<div class="show-div">
+  <h1>User details</h1>
+  <div> 
+    <p><%= @user.username %></p>
+    <p><%= @user.email %></p>
+    <p><%= @user.password %></p>
+    <%= link_to 'Edit', edit_user_path(@user), class: "new_user_button" %>
+    <%= link_to 'Back', users_path, class: "new_user_button" %>
+  </div>
 </div>
