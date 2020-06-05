@@ -1,9 +1,5 @@
 # Re-Former
 
-The purpose of this project is to present the rails helper methods in order to create an HTML form.
-Initially we created a form using native HTML mark-up and gradually re-formed it to follow rails practices using helper methods.
-We implemented one form to handle user’s details insertions to the Users table in a database. Additionally, for convenience, we created an index form to access all users, a details form to view the user’s details and an edit form to edit those details and also to handle input errors.
-
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
@@ -45,6 +41,22 @@ We implemented one form to handle user’s details insertions to the Users table
   </p>
 </p>
 
+
+The purpose of this project is to present the rails helper methods in order to create an HTML form.
+Initially we created a form using native HTML mark-up and gradually re-formed it to follow rails practices using helper methods.
+We implemented one form to handle user’s details insertions to the Users table in a database. Additionally, for convenience, we created an index form to access all users, a details form to view the user’s details and an edit form to edit those details and also to handle input errors.
+
+<br />
+<img src="app/assets/images/allusers.png" alt="program interface">
+<br />
+<img src="app/assets/images/newuser.png" alt="program interface">
+<br />
+<img src="app/assets/images/newusererrors.png" alt="program interface">
+<br />
+<img src="app/assets/images/userdetails.png" alt="program interface">
+<br />
+<img src="app/assets/images/useredit.png" alt="program interface">
+<br />
 
 <!-- TABLE OF CONTENTS -->
 
