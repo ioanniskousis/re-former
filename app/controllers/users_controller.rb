@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    # redirect_to edit_user_path(@user)
   end
 
   def new
@@ -32,7 +31,6 @@ class UsersController < ApplicationController
     if @user.update(user_params)
       redirect_to users_path
     else
-      # redirect_to edit_user_path(@user)
       render :edit
     end
   end
