@@ -57,6 +57,7 @@ We implemented one form to handle user’s details insertions to the Users table
 - [Database initialization](#database-initialization)
 - [Development](#development)
 - [Built With](#built-with)
+- [Live Version](#live-version)
 - [Contributors](#contributors)
 - [Acknowledgements](#acknowledgements)
 
@@ -134,6 +135,13 @@ This project was built using these technologies.
   - Ruby On Rails version 6.0
 
 <hr/>
+
+## Live Version
+
+  You can see it working [![Run on Heroku]](https://cryptic-basin-86174.herokuapp.com/)
+
+<hr/>
+
 <!-- CONTACT -->
 
 ## Contributors
@@ -143,7 +151,7 @@ This project was built using these technologies.
 
 - Github: [@ioanniskousis](https://github.com/ioanniskousis)
 - Twitter: [@ioanniskousis](https://twitter.com/ioanniskousis)
-- Linkedin: [Ioannis Kousis](https://www.linkedin.com/in/ioannis-kousis-9a5051b4/)
+- Linkedin: [Ioannis Kousis](https://www.linkedin.com/in/jgkousis)
 - E-mail: jgkousis@gmail.com
 
 :bust_in_silhouette: **Author_2**
