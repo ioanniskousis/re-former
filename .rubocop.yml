@@ -9,7 +9,7 @@ AllCops:
     - "db/**/*"
 
   Include:
-    - "app"
+    - "app/controllers/**/*"
 
   DisplayCopNames: true
 
