@@ -1,4 +1,5 @@
 <h1>Create a user</h1>
+<%= render partial: 'form' %>
 <!--
 <form action="/users" method="post" accept-charset="UTF-8">
 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
@@ -11,7 +12,6 @@
   <input type="submit" value="Create">
 </form>
 -->
-
 <!--
 <%= form_tag('/users', method: :post) do %>
   <%= label_tag(:username, "Username:") %>
@@ -23,11 +23,8 @@
   <%= submit_tag("Create") %>
 <% end %>
 -->
-
-<%= render partial: 'form' %>
-
 <!--
-<%= form_for @user, method: :post do |f| %>
+<%= form_for @user do |f| %>
   <%= f.label :username %>
   <%= f.text_field :username %> <br><br>
   <%= f.label :email %>
@@ -35,6 +32,5 @@
   <%= f.label :password %>
   <%= f.password_field :password %> <br><br>
   <%= f.submit 'Create' %>
-  
 <% end %>
 -->

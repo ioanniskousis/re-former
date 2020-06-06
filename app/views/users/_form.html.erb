@@ -1,19 +1,20 @@
 <div class="form-div">
-<%= form_for @user do |f| %>
-  <ul>
-  <% @user.errors.full_messages.each do |e| %>
-    <li class="red"><%= e %></li>
+  <%= form_for @user do |f| %>
+    <ul>
+      <% @user.errors.full_messages.each do |e| %>
+        <li class="red"><%= e %></li>
+      <% end %>
+    </ul>
+    <%= f.label :username %>
+    <%= f.text_field :username %> <br>
+    <br>
+    <%= f.label :email %>
+    <%= f.email_field :email %> <br>
+    <br>
+    <%= f.label :password %>
+    <%= f.password_field :password %> <br>
+    <br>
+    <%= f.submit %>
+    <%= link_to 'Cancel', :back, class: "new_user_button" %>
   <% end %>
-  </ul>
-  
-  <%= f.label :username %>
-  <%= f.text_field :username %> <br><br>
-  <%= f.label :email %>
-  <%= f.email_field :email %> <br><br>
-  <%= f.label :password %>
-  <%= f.password_field :password %> <br><br>
-  <%= f.submit %>
-  <%= link_to 'Cancel', :back, class: "new_user_button" %>
-
-<% end %>
 </div>
